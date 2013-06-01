@@ -1,0 +1,85 @@
+\hypertarget{class_list}{\section{List Class Reference}
+\label{class_list}\index{List@{List}}
+}
+
+
+Класс список  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_list_a64d878a92d11f7c63c70cbe4e7dd4176}{\hyperlink{class_list_a64d878a92d11f7c63c70cbe4e7dd4176}{List} ()}\label{class_list_a64d878a92d11f7c63c70cbe4e7dd4176}
+
+\begin{DoxyCompactList}\small\item\em Кол-\/во элементов списка \end{DoxyCompactList}\item 
+\hypertarget{class_list_a13b27d187467bf0a50da369c1df347da}{int \hyperlink{class_list_a13b27d187467bf0a50da369c1df347da}{getsize} ()}\label{class_list_a13b27d187467bf0a50da369c1df347da}
+
+\begin{DoxyCompactList}\small\item\em getsize -\/ Функция получения кол-\/ва элементов \end{DoxyCompactList}\item 
+void \hyperlink{class_list_ade57bc7ba1b6b2b1eaa725e4cabec49f}{add} (float x, int i)
+\begin{DoxyCompactList}\small\item\em add -\/ Функция добавления элемента на место с индексом i, входящих параметров -\/ 2 \end{DoxyCompactList}\item 
+void \hyperlink{class_list_a19444bf0aa37353b41989a8e40c6532d}{del} (int i)
+\begin{DoxyCompactList}\small\item\em del -\/ Функция удаления элемента с индексом i \end{DoxyCompactList}\item 
+float \hyperlink{class_list_ac88acfd32ca6884a0dc859e6ac856019}{get} (int i)
+\begin{DoxyCompactList}\small\item\em -\/ Функция получения данных элемента с индексом i \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Класс список 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_list_ade57bc7ba1b6b2b1eaa725e4cabec49f}{\index{List@{List}!add@{add}}
+\index{add@{add}!List@{List}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void List\-::add (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{int}]{z}
+\end{DoxyParamCaption}
+)}}\label{class_list_ade57bc7ba1b6b2b1eaa725e4cabec49f}
+
+
+add -\/ Функция добавления элемента на место с индексом i, входящих параметров -\/ 2 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & -\/ Значение нового элемента\\
+\hline
+{\em i} & -\/ индекс места $\ast$//// \\
+\hline
+\end{DoxyParams}
+Для пустого списка
+
+Добавить элемент в начало
+
+Добавить элемент в конец
+
+Остальные случаи \hypertarget{class_list_a19444bf0aa37353b41989a8e40c6532d}{\index{List@{List}!del@{del}}
+\index{del@{del}!List@{List}}
+\subsubsection[{del}]{\setlength{\rightskip}{0pt plus 5cm}void List\-::del (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{class_list_a19444bf0aa37353b41989a8e40c6532d}
+
+
+del -\/ Функция удаления элемента с индексом i 
+
+Если удаляется первый элемент, который не является единственным в списке
+
+Если удаляется последний элемент, который не является единственным в списке
+
+Если удаляется элемент, который не является ни первым, ни последним. \hypertarget{class_list_ac88acfd32ca6884a0dc859e6ac856019}{\index{List@{List}!get@{get}}
+\index{get@{get}!List@{List}}
+\subsubsection[{get}]{\setlength{\rightskip}{0pt plus 5cm}float List\-::get (
+\begin{DoxyParamCaption}
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{class_list_ac88acfd32ca6884a0dc859e6ac856019}
+
+
+-\/ Функция получения данных элемента с индексом i 
+
+Нахождение элемента с индексом z 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+list/list/\hyperlink{code__list_8cpp}{code\-\_\-list.\-cpp}\end{DoxyCompactItemize}
